@@ -18,7 +18,7 @@ const Start = () => {
 
                 <CContainer fluid>
 
-                <CNavbarBrand href="#">Navbar</CNavbarBrand>
+                <CNavbarBrand href="#">ServeMe Admin</CNavbarBrand>
 
                 <CNavbarToggler
                     aria-label="Toggle navigation"
