@@ -1,0 +1,36 @@
+
+.admin{
+    border-width: 3;
+    border-color: black;
+    padding: 10;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.menu{
+    height: fit;
+}
+
+.start{
+    width: 100%;
+    background-color:#3c4b64 ;
+    height: 65px;
+    
+    
+}
+
+.menuItems{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+
+
+.body{
+    width: auto;
+    background-color: white;
+    width: 100%;
+}
