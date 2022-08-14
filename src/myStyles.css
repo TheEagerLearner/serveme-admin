@@ -34,3 +34,124 @@
     background-color: white;
     width: 100%;
 }
+
+
+
+
+/* main card : user */
+
+.card-users{
+
+    box-sizing: border-box;
+    font-family: Poppins;
+    width:22.5rem;
+background-color: rgb(255, 255, 255);
+border: 1px solid rgb(119, 119, 119);
+border-radius: .5rem;
+box-shadow: 0 9px 19px 0 rgba(0, 0, 0, 0.2);
+margin: 2rem;
+padding: 1rem;
+}
+
+.card-users h2 {
+    margin-left: 2rem;
+    color: #05BF4F;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+
+.card-users h3{
+    margin-left: 1rem;
+    font-weight: bolder;
+    font-size: 1.4rem;
+    margin: 1.2rem;
+}
+
+
+/* icon pad */
+
+.icon-pad{
+background-color: #ffffff;
+width: 6rem;
+height: 6rem;
+margin-left: 2rem;
+display: flex;
+border-radius: .5rem;
+border: 2px solid #05BF4F;
+box-shadow: 0px 3px 4px 0px #05BF4F;
+}
+
+.icon-pad i{
+    font-size: 3rem;
+    margin: auto;
+}
+
+
+
+/* card bottom */
+.card-bottom{
+ height: auto;
+background-color: #F3F3F3;
+border-radius: .6rem;
+margin: .1rem;
+box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.3);
+padding: 1rem;
+
+}
+
+
+
+
+
+/* card bottom */
+
+.card-details{
+    display: flex;
+ 
+    margin-bottom: 0px;
+}
+
+.card-details h4{
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+.card-num {
+color:#05BF4F;
+font-size: 1.1rem;
+margin: auto;
+font-weight:bold;
+justify-content: flex-end;
+align-items: flex-end;
+}
+
+/* buttons section  */
+
+.buttons-sec{
+    display: flex;
+    justify-content: space-evenly;
+  
+}
+
+.btn {
+  margin: auto;
+  border: 0;
+  text-align: center;
+  display: inline-block;
+  padding: .6rem;
+  width: 7rem;
+  margin: 2px;
+  color: #ffffff;
+  background-image: linear-gradient(145deg ,#05BF4F , #00be4c );
+  border-radius: 8px;
+  font-family: "proxima-nova-soft", sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  transition: box-shadow 200ms ease-out;
+  margin-bottom: .4rem;
+}
+
+.btn:hover{
+      background-image:linear-gradient(45deg ,#000000 , #464646 );
+      color: #ffffff;
+}

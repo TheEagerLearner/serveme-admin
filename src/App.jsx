@@ -11,6 +11,7 @@ import './myStyles.css';
 
 import Menu from "./components/Menu";
 import Start from "./components/Start";
+import UserCard from "./components/UserCard";
 
 const App = () => {
 
@@ -24,7 +25,7 @@ const App = () => {
     <div className="body">
     
       <Start />
-
+      <UserCard/>
     </div>
     </div>
   
