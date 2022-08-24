@@ -12,13 +12,14 @@ import './myStyles.css';
 import Menu from "./components/Menu";
 import Start from "./components/Start";
 import CardHolder from "./CardHolder";
+import DeleteList from "./components/DeleteList";
 
 const App = () => {
 
 
   const [visibleScrolling, setVisibleScrolling] = useState(false)
 
-  return (
+  return (    
   
     <div className="admin">
     <Menu />
@@ -26,6 +27,7 @@ const App = () => {
     
       <Start />
       <CardHolder/>
+
     </div>
     </div>
   

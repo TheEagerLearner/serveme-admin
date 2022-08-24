@@ -618,3 +618,76 @@ align-items: flex-end;
 }
 
 
+
+
+/* start: stlye for delete section */
+
+.delete-header{
+    font-weight: bolder;
+    margin: .6rem;
+    background: -webkit-linear-gradient(45deg, #296bd6 0%, #06386d 100%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+    font-size:3rem;
+} 
+
+.delete-note{
+    background-color: rgb(221, 221, 219);
+    color:#053379;
+    border-radius:.5rem;
+    font-size: .9rem;
+    padding:.41rem;
+    margin:.9rem;
+}
+
+.search-bar{
+    margin: .7rem;
+    padding: .5rem;
+    border-radius: .3rem;
+    width: 26rem;
+}
+
+
+.del-head{
+    color: #e8ecf4;
+    font-weight: bolder;
+    background-color: #05628d;
+    padding: .3rem;
+}
+
+
+#delete-table{
+    border: 1px solid black;
+    margin: .6rem;
+}
+
+tr{
+    border:1px solid #000000;
+    margin-left: .9rem;
+}
+td{
+    width: 25rem;
+    text-align: justify;
+    margin-left: .3rem;
+}
+.td{
+    height: 2.4rem;
+}
+
+.btn-del{
+padding:  .2rem .5rem;
+background-color: #1B76FF;
+border-radius: .3rem;
+
+color: white;
+
+}
+
+.btn-del:hover{
+    background-color: white;
+    border: 1px solid black;
+}
+a{
+    text-decoration: none;
+}
+/* end : stlye for delete section */
